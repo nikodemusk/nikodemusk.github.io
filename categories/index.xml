@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on xicode.se</title>
-    <link>https://xicode.se/categories/</link>
+    <link>https://nikodemusk.github.io/categories/</link>
     <description>Recent content in Categories on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
     
-	<atom:link href="https://xicode.se/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nikodemusk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

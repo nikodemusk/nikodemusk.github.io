@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xicode.se</title>
-    <link>https://xicode.se/</link>
+    <link>https://nikodemusk.github.io/</link>
     <description>Recent content on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
     <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://xicode.se/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nikodemusk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hej!</title>
-      <link>https://xicode.se/2019/07/hej/</link>
+      <link>https://nikodemusk.github.io/2019/07/hej/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://xicode.se/2019/07/hej/</guid>
+      <guid>https://nikodemusk.github.io/2019/07/hej/</guid>
       <description>En ny sajt, dedicerad till programmering med inriktning mot undervisning i matematik och fysik. Önska mig lycka till.</description>
     </item>
     
