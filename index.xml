@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
-    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 10:46:08 +0200</lastBuildDate>
     
 	<atom:link href="https://nikodemusk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://nikodemusk.github.io/about/</link>
+      <pubDate>Mon, 22 Jul 2019 10:46:08 +0200</pubDate>
+      
+      <guid>https://nikodemusk.github.io/about/</guid>
+      <description>Nu ska jag alltså skriva en about-sida, &amp;ldquo;alla&amp;rdquo; webbplatser ska ju ha en sådan. Min erfarenhet säger att webbplatser som jag försöker underhålla tar olika riktningar över tid. Min tanke med denna webbplats är att dela kod och notera erfarenheter vad beträffar programmering för en matematiklärares behov; alltså inte erfarenheter kring elevernas programmering matematikkurser (det kanhända att jag skriver om på xiblog). Idén till webbplatsen kom upp i samband med att jag orienterade mig i Python-biblioteket matplotlib.</description>
+    </item>
     
     <item>
       <title>Hej!</title>

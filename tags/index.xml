@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on xicode.se</title>
+    <title>xicode.se</title>
     <link>https://nikodemusk.github.io/tags/</link>
-    <description>Recent content in Tags on xicode.se</description>
+    <description>Recent content on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
@@ -13,16 +13,12 @@
     
     
     <item>
-      <title></title>
-      <link>https://nikodemusk.github.io/tags/</link>
+      <title>Hej!</title>
+      <link>https://nikodemusk.github.io/2019/07/hej/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/tags/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>ktning mot undervisning i matematik och fysik. Önska mig lycka till.</description>
+      <guid>https://nikodemusk.github.io/2019/07/hej/</guid>
+      <description>En ny sajt, dedicerad till programmering med inriktning mot undervisning i matematik och fysik. Önska mig lycka till.</description>
     </item>
     
     <item>
