@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on xicode.se</title>
-    <link>https://nikodemusk.github.io/posts/</link>
-    <description>Recent content in Posts on xicode.se</description>
+    <title>matplotlib on xicode.se</title>
+    <link>https://nikodemusk.github.io/tags/matplotlib/</link>
+    <description>Recent content in matplotlib on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
     <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nikodemusk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nikodemusk.github.io/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://nikodemusk.github.io/2019/07/grunderna-i-matplotlib/</guid>
       <description>Bakgrund Att få upp en funktionsgraf i Python med hjälp av matplotlib är inte svårt. Med lite googlande går det också att anpassa grafen på det som önskas. Ett problem för mig är att jag är en ganska sporadisk användare. Det gör att jag hinner glömma bort syntax och detaljer mellan gångerna. En reflektion som jag gjort är att koden ser lite annorlunda ut från gång till gång, trots att jag gör ungefär samma sak.</description>
-    </item>
-    
-    <item>
-      <title>Hej!</title>
-      <link>https://nikodemusk.github.io/2019/07/hej/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nikodemusk.github.io/2019/07/hej/</guid>
-      <description>En ny sajt, dedicerad till programmering med inriktning mot undervisning i matematik och fysik. Önska mig lycka till!</description>
     </item>
     
   </channel>

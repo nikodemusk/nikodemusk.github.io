@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>xicode.se</title>
+    <title>Tags on xicode.se</title>
     <link>https://nikodemusk.github.io/tags/</link>
-    <description>Recent content on xicode.se</description>
+    <description>Recent content in Tags on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
-    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nikodemusk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hej!</title>
-      <link>https://nikodemusk.github.io/2019/07/hej/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://nikodemusk.github.io/tags/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/2019/07/hej/</guid>
-      <description>En ny sajt, dedicerad till programmering med inriktning mot undervisning i matematik och fysik. Önska mig lycka till.</description>
+      <guid>https://nikodemusk.github.io/tags/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Hej!</title>
-      <link>https://nikodemusk.github.io/2019/07/hej/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      <title>matplotlib</title>
+      <link>https://nikodemusk.github.io/tags/matplotlib/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/2019/07/hej/</guid>
-      <description>En ny sajt, dedicerad till programmering med inriktning mot undervisning i matematik och fysik. Önska mig lycka till.</description>
+      <guid>https://nikodemusk.github.io/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plotta med python</title>
+      <link>https://nikodemusk.github.io/tags/plotta-med-python/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikodemusk.github.io/tags/plotta-med-python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://nikodemusk.github.io/tags/python/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nikodemusk.github.io/tags/python/</guid>
+      <description></description>
     </item>
     
   </channel>
