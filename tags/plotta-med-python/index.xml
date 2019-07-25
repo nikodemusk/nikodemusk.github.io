@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plotta med python on xicode.se</title>
-    <link>https://nikodemusk.github.io/tags/plotta-med-python/</link>
+    <link>https://xicode.se/tags/plotta-med-python/</link>
     <description>Recent content in plotta med python on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
     <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nikodemusk.github.io/tags/plotta-med-python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xicode.se/tags/plotta-med-python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Skapa funktionsgrafer med Python</title>
-      <link>https://nikodemusk.github.io/2019/07/skapa-funktionsgrafer-med-python/</link>
+      <link>https://xicode.se/2019/07/skapa-funktionsgrafer-med-python/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/2019/07/skapa-funktionsgrafer-med-python/</guid>
+      <guid>https://xicode.se/2019/07/skapa-funktionsgrafer-med-python/</guid>
       <description>Bakgrund Att få upp en funktionsgraf i Python med hjälp av matplotlib är inte svårt. Med lite googlande går det också att anpassa grafen på det som önskas. Ett problem för mig är att jag är en ganska sporadisk användare. Den tidsaspekten gör att jag hinner glömma bort syntax och detaljer mellan gångerna. Vidare har jag inte haft någon teori att bygga detaljerna på, uppgifterna som ska göras ofta varit för akuta för att jag ska ha hunnit sätta mig in i teorin.</description>
     </item>
     

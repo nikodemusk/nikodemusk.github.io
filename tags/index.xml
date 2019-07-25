@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on xicode.se</title>
-    <link>https://nikodemusk.github.io/tags/</link>
+    <link>https://xicode.se/tags/</link>
     <description>Recent content in Tags on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
     <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nikodemusk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xicode.se/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>matplotlib</title>
-      <link>https://nikodemusk.github.io/tags/matplotlib/</link>
+      <link>https://xicode.se/tags/matplotlib/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/tags/matplotlib/</guid>
+      <guid>https://xicode.se/tags/matplotlib/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plotta med python</title>
-      <link>https://nikodemusk.github.io/tags/plotta-med-python/</link>
+      <link>https://xicode.se/tags/plotta-med-python/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/tags/plotta-med-python/</guid>
+      <guid>https://xicode.se/tags/plotta-med-python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://nikodemusk.github.io/tags/python/</link>
+      <link>https://xicode.se/tags/python/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/tags/python/</guid>
+      <guid>https://xicode.se/tags/python/</guid>
       <description></description>
     </item>
     

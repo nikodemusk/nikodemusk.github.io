@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xicode.se</title>
-    <link>https://nikodemusk.github.io/</link>
+    <link>https://xicode.se/</link>
     <description>Recent content on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nikodemus Karlsson</copyright>
     <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nikodemusk.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xicode.se/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Skapa funktionsgrafer med Python</title>
-      <link>https://nikodemusk.github.io/2019/07/skapa-funktionsgrafer-med-python/</link>
+      <link>https://xicode.se/2019/07/skapa-funktionsgrafer-med-python/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/2019/07/skapa-funktionsgrafer-med-python/</guid>
+      <guid>https://xicode.se/2019/07/skapa-funktionsgrafer-med-python/</guid>
       <description>Bakgrund Att få upp en funktionsgraf i Python med hjälp av matplotlib är inte svårt. Med lite googlande går det också att anpassa grafen på det som önskas. Ett problem för mig är att jag är en ganska sporadisk användare. Den tidsaspekten gör att jag hinner glömma bort syntax och detaljer mellan gångerna. Vidare har jag inte haft någon teori att bygga detaljerna på, uppgifterna som ska göras ofta varit för akuta för att jag ska ha hunnit sätta mig in i teorin.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://nikodemusk.github.io/about/</link>
+      <link>https://xicode.se/about/</link>
       <pubDate>Mon, 22 Jul 2019 10:46:08 +0200</pubDate>
       
-      <guid>https://nikodemusk.github.io/about/</guid>
+      <guid>https://xicode.se/about/</guid>
       <description>Nu ska jag alltså skriva en about-sida, &amp;ldquo;alla&amp;rdquo; webbplatser ska ju ha en sådan. Min erfarenhet säger att webbplatser som jag försöker underhålla tar olika riktningar över tid. Min tanke med denna webbplats är att dela kod och notera erfarenheter vad beträffar programmering för en matematiklärares behov; alltså inte erfarenheter kring elevernas programmering i matematikkurser (det kanhända att jag skriver om på xiblog). Idén till webbplatsen kom upp i samband med att jag orienterade mig i Python-biblioteket Matplotlib.</description>
     </item>
     
     <item>
       <title>Hej!</title>
-      <link>https://nikodemusk.github.io/2019/07/hej/</link>
+      <link>https://xicode.se/2019/07/hej/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nikodemusk.github.io/2019/07/hej/</guid>
+      <guid>https://xicode.se/2019/07/hej/</guid>
       <description>En ny sajt, dedikerad till programmering med inriktning mot undervisning i matematik och fysik. Önska mig lycka till!</description>
     </item>
     

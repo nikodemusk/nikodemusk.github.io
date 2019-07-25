@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nikodemusk.github.io/posts/</loc>
+    <loc>https://xicode.se/posts/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/2019/07/skapa-funktionsgrafer-med-python/</loc>
+    <loc>https://xicode.se/2019/07/skapa-funktionsgrafer-med-python/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/tags/</loc>
-    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nikodemusk.github.io/tags/matplotlib/</loc>
+    <loc>https://xicode.se/tags/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/tags/plotta-med-python/</loc>
+    <loc>https://xicode.se/tags/matplotlib/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/tags/python/</loc>
+    <loc>https://xicode.se/tags/plotta-med-python/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/</loc>
+    <loc>https://xicode.se/tags/python/</loc>
     <lastmod>2019-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/about/</loc>
+    <loc>https://xicode.se/</loc>
+    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xicode.se/about/</loc>
     <lastmod>2019-07-22T10:46:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/2019/07/hej/</loc>
+    <loc>https://xicode.se/2019/07/hej/</loc>
     <lastmod>2019-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nikodemusk.github.io/categories/</loc>
+    <loc>https://xicode.se/categories/</loc>
     <priority>0</priority>
   </url>
   
