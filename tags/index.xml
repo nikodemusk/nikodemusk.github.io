@@ -6,11 +6,19 @@
     <description>Recent content in Tags on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Nikodemus Karlsson</copyright>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://xicode.se/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python</title>
+      <link>https://xicode.se/tags/python/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xicode.se/tags/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>matplotlib</title>
@@ -27,15 +35,6 @@
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xicode.se/tags/plotta-med-python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://xicode.se/tags/python/</link>
-      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xicode.se/tags/python/</guid>
       <description></description>
     </item>
     

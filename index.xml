@@ -6,11 +6,20 @@
     <description>Recent content on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Nikodemus Karlsson</copyright>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://xicode.se/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pdb - Debugger i Python</title>
+      <link>https://xicode.se/2019/07/pdb-debugger-i-python/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xicode.se/2019/07/pdb-debugger-i-python/</guid>
+      <description>Jag installerade just Python 3.7.4. Från och med generation 3.7 kan Pythons debugger, pdb, aktiveras utan att importera något bibliotek. Det är funktionen breakpoint() som gör att programmet stannar och debuggern aktiveras.
+Nedan är en funktion som ska dividera två tal med varandra. Men även om den anropas med talen 6 och 3 så avbryts körningen med ett fel som säger att det har skett en division med noll. Programmet debuggas med breakpoint().</description>
+    </item>
     
     <item>
       <title>Skapa funktionsgrafer med Python</title>
