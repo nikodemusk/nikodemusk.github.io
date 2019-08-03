@@ -6,10 +6,20 @@
     <description>Recent content in matplotlib on xicode.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://xicode.se/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Plotting Bitmaps</title>
+      <link>https://xicode.se/2019/08/plotting-bitmaps/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xicode.se/2019/08/plotting-bitmaps/</guid>
+      <description>Introduction In earlier posts we have seen how we plot functions of one independent variable. Such a diagram is built by two axes and a line; for a given value on an axis we can read out a corresponding value on the other depending the function. But what if we have two independent variables?
+There are 3D graphs, but in some situations they may be hard to read. The alternatives I&amp;rsquo;m going to present here is a representation of the values in a bitmap with different colors as well as level curves.</description>
+    </item>
     
     <item>
       <title>Skapa funktionsgrafer med Python</title>

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Plotting Bitmaps :: xicode.se</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Introduction In earlier posts we have seen how we plot functions of one independent variable. Such a diagram is built by two axes and a line; for a given value on an axis we can read out a corresponding value on the other depending the function. But what if we have two independent variables?
+There are 3D graphs, but in some situations they may be hard to read. The alternatives I&amp;rsquo;m going to present here is a representation of the values in a bitmap with different colors as well as level curves."/>
+<meta name="keywords" content="programmering"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://xicode.se/2019/08/plotting-bitmaps/" />
+
+
+<link rel="stylesheet" href="https://xicode.se/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://xicode.se/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="https://xicode.se/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Plotting Bitmaps :: xicode.se — " />
+<meta name="twitter:description" content="Introduction In earlier posts we have seen how we plot functions of one independent variable. Such a diagram is built by two axes and a line; for a given value on an axis we can read out a corresponding value on the other depending the function. But what if we have two independent variables?
+There are 3D graphs, but in some situations they may be hard to read. The alternatives I&amp;rsquo;m going to present here is a representation of the values in a bitmap with different colors as well as level curves." />
+<meta name="twitter:site" content="https://xicode.se" />
+<meta name="twitter:creator" content="Nikodemus Karlsson" />
+<meta name="twitter:image" content="https://cloudfiles.nyc3.digitaloceanspaces.com/xicode/basicbitmap/basicbitmap4.png">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Plotting Bitmaps :: xicode.se — ">
+<meta property="og:description" content="Introduction In earlier posts we have seen how we plot functions of one independent variable. Such a diagram is built by two axes and a line; for a given value on an axis we can read out a corresponding value on the other depending the function. But what if we have two independent variables?
+There are 3D graphs, but in some situations they may be hard to read. The alternatives I&amp;rsquo;m going to present here is a representation of the values in a bitmap with different colors as well as level curves." />
+<meta property="og:url" content="https://xicode.se/2019/08/plotting-bitmaps/" />
+<meta property="og:site_name" content="Plotting Bitmaps" />
+<meta property="og:image" content="https://cloudfiles.nyc3.digitaloceanspaces.com/xicode/basicbitmap/basicbitmap4.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2019-08-03 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    xicode.se
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+  </ul>
+</nav>
+
+  
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://xicode.se/2019/08/plotting-bitmaps/">Plotting Bitmaps</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2019-08-03
+    </span>
+    
+    
+    <span class="post-author">::
+      Nikodemus Karlsson
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="https://xicode.se/tags/matplotlib/">matplotlib</a>&nbsp;
+    
+    #<a href="https://xicode.se/tags/python/">python</a>&nbsp;
+    
+  </span>
+  
+
+  
+  <img src="https://cloudfiles.nyc3.digitaloceanspaces.com/xicode/basicbitmap/basicbitmap4.png" class="post-cover" />
+  
+
+  <div class="post-content">
+    
+
+<h1 id="introduction">Introduction</h1>
+
+<p>In earlier posts we have seen how we plot functions of one independent
+variable. Such a diagram is built by two axes and a line; for a given value
+on an axis we can read out a corresponding value on the other depending
+the function. But what if we have two independent variables?</p>
+
+<p>There are 3D graphs, but in some situations they may be hard to read. The
+alternatives I&rsquo;m going to present here is a representation of the values in
+a bitmap with different colors as well as level curves.</p>
+
+<p>Starting with bitmaps, there is a function <code>imshow()</code> in Matplotlib.
+It works like this:</p>
+
+<pre><code class="language-python">import matplotlib.pyplot as plt
+import numpy as np # We are going use numpy later on
+myData = np.array(
+   [[2., 0., 1.],
+    [0., 1., 0.],
+    [1., 0., 2.]])
+plt.imshow(myData)
+plt.colorbar()
+plt.show()
+</code></pre>
+
+
+  <figure class="left" >
+    <img src="https://cloudfiles.nyc3.digitaloceanspaces.com/xicode/basicbitmap/basicbitmap1.png"   style="border-radius: 8px;"  />
+    
+      <figcaption class="left"  style="color: red;" >Figure 1: Colormap with nine values</figcaption>
+    
+  </figure>
+
+
+
+<p>This is great! We&rsquo;ve got a graphical representaion of our array. Each color
+maps a correponding value in the array and the scale of each axis represents
+the position of a value in the array.</p>
+
+<p>As you might expect, we can make much larger arrays and visualize the values
+by colors.</p>
+
+<h1 id="let-s-combine-many-values">Let&rsquo;s combine many values</h1>
+
+<p>Of course, the usual way to fill an array it&rsquo;s not by typing it on the
+keyboard. Let&rsquo;s create an array with values resulted from a calculation
+of two independent variables. We soon will see how we can achive the array
+just below quite simple from two 1d arrays.</p>
+
+<pre><code>{x0, x1, x2,..., xm}
+{y0, y1, y2,..., yn} =&gt;
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+| x0-y0 |  x1-y0 |  x2-y0 |  . . . | xm-y0 |
+|- - - - - - - - - - - - - - - - - - - - - |
+| x0-y1 |  x1-y1 |  x2-y1 |  . . . | xm-y1 |
+|- - - - - - - - - - - - - - - - - - - - - |
+|   .   |    .   |    .   |    .   |   .   |   
+|   .   |    .   |    .   |    .   |   .   |
+|   .   |    .   |    .   |    .   |   .   |
+|- - - - - - - - - - - - - - - - - - - - - |
+| x0-yn | x1-yn  | x2-yn  |  . . . | xm-yn |
+- - - - - - - - - - - - - - - - - - - - - -
+Array of values combined by an arbitrary function.
+The number of elements of each type, m and n, may
+or may not be equal.
+</code></pre>
+
+<p>Say we want $x$ as well as $y$ values in the domain
+$-5\leq x,y\leq 5$ and we want to plot the sum of the sine values for a large
+number of combinations of $x$ and $y$.</p>
+
+<p>In order to organize a resulting array according to the above example,
+we can get helped of the NumPy&rsquo;s function <code>meshgrid()</code>,</p>
+
+<pre><code class="language-python">lowerX, upperX, numberX = -5, 5, 125 # 125 x-values between -5 and 5
+lowerY, upperY, numberY = -5, 5, 125 # 125 y-values between -5 and 5
+x = np.linspace(lowerX, upperX, numberX)
+y = np.linspace(lowerY, upperY, numberY)
+xx, yy = np.meshgrid(x, y)
+
+# Create an array z containing the sum of
+# the sines for each value of x and y.
+# z will be a 125x125 array in this case.
+z = np.sin(xx) + np.sin(yy)
+</code></pre>
+
+<p>Let&rsquo;s plot the <code>z</code> array, the sum of sine of each mapped $x$ and $y$ value,
+like the plot in Figure 1 above:</p>
+
+<pre><code class="language-python"># Let the axis reflect the x and y values rather
+# than their position. By default, the origin is in
+# the upper left corner, at the array's first value,
+# See Figure 1. In order to match the coordinates we
+# need to move it to the lower left.
+
+plt.imshow(z, extent=[lowerX, upperX, lowerY, upperY],
+           origin='lower')
+
+plt.colorbar()
+plt.show()
+</code></pre>
+
+
+  <figure class="left" >
+    <img src="https://cloudfiles.nyc3.digitaloceanspaces.com/xicode/basicbitmap/basicbitmap2.png"   style="border-radius: 8px;"  />
+    
+      <figcaption class="left"  style="color: red;" >Figure 2: Colormap with 125x125 values</figcaption>
+    
+  </figure>
+
+
+
+<p>Yes! We have colorized the range of the equation
+$z=\sin x + \cos x$. We see the &ldquo;hot spots&rdquo; (yellow spots, close to 2)
+and the &ldquo;cold spots&rdquo; (violette spots, close to -2) building a periodic pattern
+over the $xy$-plane.</p>
+
+<h1 id="levels">Levels</h1>
+
+<p>Sometimes, one may be interested about just some values that satisfiy such
+an equation. We can achive this by using the <code>contour()</code> function in Matplotlib,
+like</p>
+
+<pre><code class="language-python">CS = plt.contour(xx, yy, myData, [-1.9, -1.4, -0.9, 0, 0.9, 1.4, 1.9])
+ax.clabel(CS, inline=1, fontsize=8)
+plt.show()
+</code></pre>
+
+
+  <figure class="left" >
+    <img src="https://cloudfiles.nyc3.digitaloceanspaces.com/xicode/basicbitmap/basicbitmap3.png"   style="border-radius: 8px;"  />
+    
+      <figcaption class="left"  style="color: red;" >Figure 3: Contours for a few values</figcaption>
+    
+  </figure>
+
+
+
+<p>Here, we may get an idea of which pairs of $x$ and $y$ satisfying a given
+equation, e.g. $\sin x + \sin y = 1.4$.</p>
+
+<p>We don&rsquo;t need to go so advanced as trigonometric sums like above. For me,
+as a maths teacher, I think I even can make use of a similar plot with stright
+lines. The equation of a straight line is $Ax + By + C = 0$, for some
+constants $A$, $B$ and $C$. Or why not a circle, $r^2=(x+a)^2+(y+b)^2$, for
+some constants $a$ and $b$.</p>
+
+<hr />
+
+<h1 id="bottom-line">Bottom line</h1>
+
+<p>The code for the generation og the spectrum like header image is below:</p>
+
+<pre><code class="language-python">import matplotlib.pyplot as plt
+import numpy as np
+x = np.zeros([4, 240])
+for i in np.arange(0, 4):
+    for j in np.arange(0, 240):
+        x[i, j] = j
+fig, ax = plt.subplots(figsize=(10, 2))
+plt.imshow(x)
+ax.axis('off')
+ax.set_aspect(10) # scale of x axis 10 times the scale of y.
+plt.plot()
+</code></pre>
+
+<p>That&rsquo;s all for now, folks!</p>
+
+  </div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      
+      <span class="button next">
+        <a href="https://xicode.se/2019/07/some-numpy-array-operations/">
+          <span class="button__text">Some Numpy Array Operations</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2019 <a href = https://twitter.com/magistern>magistern</a></span>
+        <span>:: Licensed under <a href = https://creativecommons.org/licenses/by-sa/4.0/>CC BY-SA 4.0</a>
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    
+  </div>
+
+</footer>
+
+<script src="https://xicode.se/assets/main.js"></script>
+<script src="https://xicode.se/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
