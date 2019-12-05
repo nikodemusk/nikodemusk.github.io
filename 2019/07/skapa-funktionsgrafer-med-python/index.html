@@ -192,13 +192,13 @@ jag i alla fall har skrapat på ytan.</p>
 
 <pre><code class="language-python">import matplotlib.pyplot as plt
 fig = plt.figure() # En figur skapas...
-ax = fig.add_axes(0, 0, 1, 1) # I vilken ett diagram läggs in
+ax = fig.add_axes([0, 0, 1, 1]) # I vilken ett diagram läggs in
 
 # Punkterna förbinds
-line = ax.plot([-2, -1, 0, 1, 2], [7, 6, 5, 4, 3])
+line = ax.plot([-2, -1, 0, 1, 2], [2, 1, 0, -1, -2])
 
 # Punkterna plottas en och en
-points = ax.plot([-2, -1, 0, 1, 2], [7, 6, 5, 4, 3], &quot;o&quot;)
+points = ax.plot([-2, -1, 0, 1, 2], [2, 1, 0, -1, -2], &quot;o&quot;)
 </code></pre>
 
 <p>Här erhålls nu ett diagram:</p>
