@@ -1,0 +1,4 @@
+- source: intro-pr1.qmd
+  quarto-pub:
+    - id: 703e34c7-0bf9-43cd-97ef-8ef4aa457281
+      url: 'https://magistern.quarto.pub/introduktion-programmering-1'

@@ -1,0 +1,4 @@
+- source: villkor.qmd
+  quarto-pub:
+    - id: 562c4d3d-21ec-4d7d-88d5-b1dfb3d77dd3
+      url: 'https://magistern.quarto.pub/villkor-i-python'
