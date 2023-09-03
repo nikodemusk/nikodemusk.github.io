@@ -247,126 +247,126 @@
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#klipsk-som-en-dator",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#klipsk-som-en-dator",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Klipsk som en dator?",
     "text": "Klipsk som en dator?"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#förkunskaper",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#förkunskaper",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Förkunskaper?",
     "text": "Förkunskaper?\n\n\n\n\nhttps://shorturl.at/fx035"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#vad-är-ett-datorprogram",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#vad-är-ett-datorprogram",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Vad är ett datorprogram?",
     "text": "Vad är ett datorprogram?\n\n\n\nEtt datorprogram är som en uppsättning instruktioner eller regler som berättar för datorn vad den ska göra.\n\n\n\n\nPrecis som vi människor använder oss av instruktioner för att utföra olika uppgifter, använder sig också en dator av programmet för att lösa problem och utföra specifika arbetsuppgifter.\n\n\n\n\nDessa instruktioner i ett datorprogram skrivs vanligtvis i ett programmeringsspråk, vilket är ett särskilt språk som både människor och datorer kan förstå.\n\n\n\n\nNär programmet körs på en dator läser den stegvis igenom varje instruktion och utför de angivna operationerna."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#vad-är-ett-datorprogram-forts.",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#vad-är-ett-datorprogram-forts.",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Vad är ett datorprogram? (forts.)",
     "text": "Vad är ett datorprogram? (forts.)\n\n\n\nGenom att kombinera olika instruktionssekvenser kan man bygga upp mer komplexa program som kan hantera allt från matematiska beräkningar till grafikrendering eller datahantering.\n\n\n\n\nMänniskor skapar dessa program för att automatisera processer, lösa problem eller utveckla nya teknologier och applikationer som används inom allt från spelutveckling till medicinsk forskning och affärsverksamhet.\n\n\n\nSammanfattningsvis kan man säga att ett datorprogram är en samling av instruktioner skrivna i programmeringsspråk, vilket ger möjlighet att styra hur en dators hårdvara fungerar och får den att utföra specifika uppgifter."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#utvecklingsmiljö",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#utvecklingsmiljö",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Utvecklingsmiljö",
     "text": "Utvecklingsmiljö\nVi kommer att arbeta med Pythons miljö Idle under första halvan av höstterminen\n\n\n  \n\nMiljön består av en konsol där kortare “kodsnuttar” kan skrivas in och en editor där program kan skrivas och sparas.\n\n\nLadda ned från https://www.python.org/downloads"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#dagens-mål",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#dagens-mål",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Dagens mål",
     "text": "Dagens mål\n\nInstallera Python på datorn\nBekanta sig med konsol och editor genom arbete med\n\nVariabler\nFormaterad utskrift"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#variabler",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#variabler",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Variabler",
     "text": "Variabler\nEn variabel är ett “namn” på ett värde. Kan även kallas för en identifierare.\n\n# Detta program skrivs i en fil som sparas.\n# Filen skapas i Idle: File -&gt; New File\n# och namnges till fartberäkning\nsträcka = 103  # Sträckan i meter\ntid = 13.2     # Tiden i sekunder\nfart = sträcka / tid\n\nprint(f\"Fart = {fart:.1f} m/s\")\n# Skriver ut Fart = 7.8 m/s\n\nFart = 7.8 m/s\n\n\n\nVariabler kan innehålla andra saker än tal; man säger att även detta är värden."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#variabeltyper",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#variabeltyper",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Variabeltyper",
     "text": "Variabeltyper\n\nNågra vanliga typer av variabler är  string (sträng), int (heltal) och float (tal med decimaler).\n\n\nPython kan skriva ut variabeltypen för en given variabel.\n\n\n\nett_heltal = 5\nett_flyttal = 2.9\nen_sträng = \"En sträng\"\nprint(type(ett_heltal))\nprint(type(ett_flyttal))\nprint(type(en_sträng))\n\n&lt;class 'int'&gt;\n&lt;class 'float'&gt;\n&lt;class 'str'&gt;"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#variabler-i-datorminnet",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#variabler-i-datorminnet",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Variabler i datorminnet",
     "text": "Variabler i datorminnet\n\nNär en variabel tilldelas ett värde kommer detta värde att sparas på en plats i datorns minne. När variabeln adresseras kommer namnet att hänvisa till denna minnesplats."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#några-regler-för-variabelnamn",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#några-regler-för-variabelnamn",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Några regler för variabelnamn",
     "text": "Några regler för variabelnamn\n\n\nAlla bokstavstecken och siffror får användas\n\n\n\n\nPython gör skillnad på versaler och gemener\n\n\n\n\nVariabelnamn kan inte börja med en siffra\n\n\n\n\nVariabelnamn kan inte innehålla mellanslag\n\n\n\n\nVariabelnamn kan inte innehålla bindestreck"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#några-regler-för-variabelnamn-forts.",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#några-regler-för-variabelnamn-forts.",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Några regler för variabelnamn (forts.)",
     "text": "Några regler för variabelnamn (forts.)\n\n\n\n\n\nVariabelnamn bör inledas med en gemen (“liten”) bokstav\n\n\n\n\nVariabelnamn bör vara uttrycksfulla, dvs beskriva vad de står för\n\n\n\n\nOrd separeras, t ex längd_rekt = 5\n\n\n\n\nLänk: Tillåtna namn på variabler"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#utskrifter-i-python",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#utskrifter-i-python",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Utskrifter i Python",
     "text": "Utskrifter i Python\n\n\n\nUtskrift av sträng\n\nhello_string = \"Hello, world\"\nprint(hello_string)\n\nHello, world\n\n\n\n\n\n\n\nUtskrift av sträng och tal\n\npris = 10\nprint(f\"Priset är {pris} kr.\")\n\nPriset är 10 kr.\n\n\n\n\n\nUtskrift av heltal\n\npris = 10\nprint(pris)\n\n10\n\n\n\n\n\n\n\nAvrundning\n\nmy_float = 2/3\nprint(f\"{my_float:.2f}\")\n\n0.67\n\n\n\n\n\n\nNär “fast” text ska skrivas ut tillsammans med en variabel används en s.k f-string. Det står för formatted string literal."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#formaterad-utskrift",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#formaterad-utskrift",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Formaterad utskrift",
     "text": "Formaterad utskrift\nEn teckensträng har en en given textbredd. Det tydliggörs med utfyllnadstecken.\n\ns1 = \"Kalle\"\ns2 = \"Anka\"\nprint(f\"{s1:*&lt;13}\")      # Textbredd 13, vänsterjusterat\nprint(f\"{s1:*&gt;13}\")      # Textbredd 13, högerjusterat\nprint(f\"{s1:*^13}\")      # Textbredd 13, centrerat\nprint(s1.rjust(13, \"*\")) # Finns även ljust och center\nprint(s1.ljust(13) + s2) # Inget utfyllnadstecken!\n\n\n\nKalle********\n********Kalle\n****Kalle****\n********Kalle\nKalle        Anka\n\n\n\nPå rad 7 syns att vi kan slå ihop (konkatenera) två strängar med operatorn +."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#sträng-med-radbrytning",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#sträng-med-radbrytning",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Sträng med radbrytning",
     "text": "Sträng med radbrytning\nFör att skriva ut en sträng på flera används ett s.k “flykttecken” (escape character).\n\nprint(\"Här är en text\\npå två rader\")\n\nHär är en text\npå två rader\n\n\n\nDetta kan användas tillsammans med textbredden.\n\nprint(f\"Detta är en högerjusterad text\\n{'på flera rader':*&gt;30}\")\n\nDetta är en högerjusterad text\n****************på flera rader\n\n\n\n\n\n\n\n\nDet finns flera exempel på escape characters på denna länk."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#justering-av-tal",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#justering-av-tal",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Justering av tal",
     "text": "Justering av tal\n\nTabeller blir mer lättlästa om ental står under ental, tiondel under tiondel osv.\n\n\n\na = 10.5; b = 2.38\nc = 2.3;  d = 0.1\nprint(f\"{a:6.2f}\\t\\t{c:6.2f}\\n{b:6.2f}\\t\\t{d:6.2f}\")\nprint(\"----------------------\");\nprint(f\"{(a+b):6.2f}\\t\\t{(c+d):6.2f}\")\n\n 10.50        2.30\n  2.38        0.10\n----------------------\n 12.88        2.40\n\n\n\n\nObservera att beräkningarna sker mellan måsvingarna!"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#sammanfattning",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#sammanfattning",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Sammanfattning",
     "text": "Sammanfattning\n\n\n\nEtt datorprogram är en följd av instruktioner.\n\n\n\n\nDessa instruktioner skrivs i ett programmeringsspråk.\n\n\n\n\nI Python kan korta kodavsnitt skrivas i konsolen, medan en editor används för att skriva och spara program.\n\n\n\n\nI datorprogram kan användas kommentarer för att det ska bli mer lättläst. För Python gäller tecknet # inleder kommentaren # Kommentar\n\n\n\n\nFör att lagra värden i ett program används variabler.\n\n\n\n\nVariabelns typ beror på vilket sorts värde som lagras."
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#sammanfattning-forts.",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#sammanfattning-forts.",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Sammanfattning (forts.)",
     "text": "Sammanfattning (forts.)\n\n\n\nDet finns regler och konventioner för namngivning av variabler.\n\n\n\n\nFör att skriva ut variabler i Python används en funktion som heter print.\n\n\n\n\nMed print går det att styra hur utskriften sker, t ex med avseende på radbrytning, textjustering och antal decimaler för ett tal.\n\n\n\n\nUttryck kan evalueras i en sträng i Python med f-string.\n\nprint(f\"Talet är {2+2}\") # Talet är 4"
   },
   {
     "objectID": "pr1/python/intro/pres-version-installerad-python/index.html#uppgifter",
     "href": "pr1/python/intro/pres-version-installerad-python/index.html#uppgifter",
-    "title": "Introduktionn Programmering 1",
+    "title": "Introduktion Programmering 1",
     "section": "Uppgifter",
     "text": "Uppgifter\n\n\n\n\nUppgifterna 1 – 6 i dokumentet Uppgifter Pr1, utskrift och villkor"
   },
